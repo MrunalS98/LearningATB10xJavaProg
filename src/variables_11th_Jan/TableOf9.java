@@ -5,7 +5,6 @@ public class TableOf9 {
     public static void main(String[] args) {
         int num = 9;
 
-        System.out.printf("%d x 1 = %d%n", num, num);
         System.out.printf("%d x 2 = %d%n", num, num * 2);
         System.out.printf("%d x 3 = %d%n", num, num * 3);
         System.out.printf("%d x 4 = %d%n", num, num * 4);
