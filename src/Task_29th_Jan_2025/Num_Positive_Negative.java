@@ -14,6 +14,8 @@ public class Num_Positive_Negative {
         }
         else{
             System.out.println("Your number is Negative");
+
+            sc.close();
         }
     }
 }

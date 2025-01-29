@@ -17,5 +17,6 @@ public class Char_Vowel_or_Consonant {
         else{
             System.out.println("Your character is consonant");
         }
+        sc.close();
     }
 }
