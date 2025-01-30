@@ -11,22 +11,22 @@ public class Grade_cal {
 
         if(marks>=0 && marks<=100){
 
-            if ((marks >= 90) && (marks == 100)){
+            if (marks >= 90){
                 System.out.println("You got A+");
             }
-            else if(marks >= 80 && marks <= 89){
+            else if(marks >= 80){
                 System.out.println("You got A");
             }
-            else if(marks >= 70 && marks <= 79){
+            else if(marks >= 70){
                 System.out.println("You got B");
             }
-            else if(marks >= 60 && marks <= 69){
+            else if(marks >= 60){
                 System.out.println("You got C");
             }
-            else if(marks >= 50 && marks <= 59){
+            else if(marks >= 50){
                 System.out.println("You got D");
             }
-            else if(marks >= 40 && marks <= 49){
+            else if(marks >= 40){
                 System.out.println("You got E");
             }
             else{

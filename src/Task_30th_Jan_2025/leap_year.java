@@ -1,5 +1,6 @@
 package Task_30th_Jan_2025;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class leap_year {
@@ -10,14 +11,14 @@ public class leap_year {
         System.out.println("Enter Year:-");
         int year = sc.nextInt();
 
-        boolean isLeapYear = false; // Initialize to false
+        if(year%4==0 && year%100==0){
+            if (year%400==0){
+                System.out.println("Year is leap year");
+            }
+        }
+        else {
+            System.out.println("Year is not a leap year");
+        }
 
-//        if((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0));
-//        {
-//            System.out.println("Year is a leap year");
-//        }
-//        else{
-//            System.out.println("Year is not a leap year");
-//        }
     }
 }

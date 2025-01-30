@@ -12,7 +12,16 @@ public class prime_number {
 
         if(num >= 1){
 
-            if(num % 1==0 && num % num==0){
+            boolean isPrime = true;            // Assume it's prime initially
+
+            for (int i = 2; i <= Math.sqrt(num); i++) {
+                if (num % i == 0) {
+                    isPrime = false; // Found a divisor, so it's not prime
+                    break; // No need to check further
+                }
+            }
+
+            if(isPrime){
                 System.out.println("Number is prime");
             }
             else{
@@ -22,5 +31,6 @@ public class prime_number {
         else {
             System.out.println("Enter number greater than or equals to 1");
         }
+        sc.close();
     }
 }
