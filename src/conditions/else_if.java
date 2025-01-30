@@ -6,7 +6,7 @@ public class else_if {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your age!(as integer)");
+        System.out.println("Enter Marks");
         int result = sc.nextInt(); // java.util.InputMismatchException
 
         if (result == 100){
