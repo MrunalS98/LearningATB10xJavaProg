@@ -1,6 +1,5 @@
 package Task_1st_Feb;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Website_Domain {
