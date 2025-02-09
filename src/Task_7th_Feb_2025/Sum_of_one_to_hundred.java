@@ -6,7 +6,7 @@ public class Sum_of_one_to_hundred {
         int sum = 0;
 
         for (int i=1;i<=100;i++){
-            sum +=i;
+            sum = sum+i;
         }
         System.out.println(sum);
     }
